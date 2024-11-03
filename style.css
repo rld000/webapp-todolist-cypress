@@ -1,0 +1,21 @@
+.task-item {
+  display: flex;
+  align-items: left;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container{
+  margin-bottom: 10px;
+}
+
+.spaced {
+  margin-right:5px; 
+}
+  
+.completed {
+  text-decoration: line-through;
+}
