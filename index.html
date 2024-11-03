@@ -10,6 +10,17 @@
     <div class="form-container">
         <input type="text" id="taskInput" placeholder="Dodaj nowe zadanie">
         <button id="addTaskBtn">Dodaj</button>
+        <select id="sortSelect">
+            <option value="newestdate">od najnowszego</option>
+            <option value="oldestdate">od najstarszego</option>
+            <option value="atoz">a do z</option>
+            <option value="ztoa">z do a</option>
+        </select>
+        <select id="filterSelect">
+            <option value="all">wszystkie</option>
+            <option value="done">ukonczone</option>
+            <option value="undone">nieukonczone</option>
+        </select>
     </div>
     <div class="task-list"></div>
     <script src="script.js"></script>
