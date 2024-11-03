@@ -9,7 +9,7 @@ describe('TODO app tests', () => {
       cy.get('.task-item span').should('contain', 'new task');
   });
 
-  it('should edit an existing task', () => {
+  it('should edit and save an existing task', () => {
       cy.get('#taskInput').type('task to edit');
       cy.get('#addTaskBtn').click();
       cy.get('.task-item button').contains('Edytuj').click();
